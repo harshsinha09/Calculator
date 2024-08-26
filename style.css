@@ -1,0 +1,46 @@
+#calculator{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #f0f0f0; /* added background color */
+    margin: 20px auto; /* added margin to center the calculator */
+    padding: 10px; /* added padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow */
+}
+
+#display{
+    font-size: 27px;
+    margin: 10px;
+    width: 85%;
+    background-color: #fff; /* added background color */
+    padding: 10px; /* added padding */
+    border: 1px solid #ccc; /* added border */
+    border-radius: 5px; /* added border radius */
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 45px;
+    height: 40px;
+    margin: 3px;
+    background-color: #4CAF50; /* added background color */
+    color: #fff; /* added text color */
+    border: none; /* removed border */
+    border-radius: 5px; /* added border radius */
+    cursor: pointer; /* added cursor pointer */
+}
+
+.button:hover {
+    background-color: #3e8e41; /* added hover effect */
+}
+
+.button:active {
+    background-color: #3e8e41; /* added active effect */
+    box-shadow: 0 5px #666; /* added box shadow */
+    transform: translateY(4px); /* added transform */
+}
